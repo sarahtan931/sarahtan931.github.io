@@ -3,7 +3,7 @@
     z-index: 1;
     position: absolute;
     width: 62.5%;
-    height: 12.3%;
+    height: 10%;
     left: 0px;
     top: 0px;
 }
@@ -65,7 +65,7 @@
     font-family: Roboto;
     font-size: 8vh;
     left:1%;
-    top: 6%;
+    top: 5%;
 }
 
 .sarah{
@@ -73,26 +73,30 @@
     position: absolute;
     font-family: Roboto;
     font-size: 6vh;
-    top: 20%;
+    top: 18%;
     left: 1%;
+    
 }
 
 .intro1{
     z-index: 1;
     position: absolute;
     font-family: Roboto;
-    font-size: 1.5vw; 
-    top: 40%;
+    font-size: 3vh; 
+    top: 45%;
     left: 1%;
+    max-width: 80%;
 }
 
 .intro2{
     z-index: 1;
     position: absolute;
     font-family: Roboto;
-    font-size: 1.5vw; 
-    top: 60%;
+    font-size: 3vh; 
+    top: 65%;
     left: 1%;
+    max-width: 80%;
+
 }
 
 .background2{
@@ -103,6 +107,7 @@
     top: 15%;
     background: #FAECE0;
     box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+   
 
 }
 
@@ -128,28 +133,31 @@
 
 .name{
     font-family: Roboto;
-    font-size: 2.5vw;
+    font-size: 5vh;
     z-index: 3;
+    top: 18.5vw;
     position: absolute;
-    bottom: 20%;
-    left: 30%;
+    width: 100%;
+    text-align: center;
+    
 }
 
 hr{
     z-index: 3;
     position: absolute;
     width: 60%;
-    top: 72%;
+    top:300px;
     left:20%;
 }
 
 .student{ 
     font-family: Roboto;
-    font-size: 1.5vw;
+    font-size: 2.5vh;
     z-index: 3;
     position: absolute;
-    bottom: 15%;
-    left: 10%;
+    bottom: 12.5%;
+    text-align: center;
+    width: 100%;
     
 }
 
@@ -168,4 +176,121 @@ hr{
     text-align: right;
     font-family: Roboto;
     font-size: 1.5vw;
+}
+
+.resumebtn{
+    position: absolute;
+    left: 10%;
+    top: 37.5%;
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.projectbtn{
+    position: absolute;
+    left: 47%;
+    top: 37.5%;
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.resumebtn:hover{
+    background-color: #FAECE0;
+}
+
+.projectbtn:hover{
+    background-color: #FAECE0;
+}
+
+.twitter{
+    position: absolute;
+    height: 3vw;
+    left: 70%;
+}
+
+.linkedin{
+    position: absolute;
+    height: 3vw;
+    left: 20%;
+}
+
+.instagram{
+    position: absolute;
+    height:3vw;
+    left: 45%
+}
+
+.instagram:hover{
+    background-color: #D9EDF0;
+}
+
+.linkedin:hover{
+    background-color: #d9edf0;
+}
+
+.twitter:hover{
+    background-color: #d9edf0;
+}
+
+
+@media only screen and (max-device-width: 480px){
+    .name{
+        font-family: Roboto;
+        font-size: 5vh;
+        z-index: 3;
+        top: 20%;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        
+    }
+    
+    hr{
+        z-index: 3;
+        position: absolute;
+        width: 60%;
+        top:50%;
+        left:20%;
+    }
+    
+    .student{ 
+        font-family: Roboto;
+        font-size: 2.0vh;
+        z-index: 3;
+        position: absolute;
+        top: 55%;
+        text-align: center;
+        width: 100%;
+        
+    }
+    
+    .twitter{
+        position: absolute;
+        height: 5vw;
+        top: 10px;
+        left: 70%;
+        }
+
+    .linkedin{
+        position: absolute;
+        height: 5vw;
+        top: 10px;
+        left: 10%;
+}
+
+.instagram{
+    position: absolute;
+    height:5vw;
+    top:10px;
+    left: 40%;
+}
+
 }
