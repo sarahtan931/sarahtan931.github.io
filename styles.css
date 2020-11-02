@@ -21,7 +21,7 @@
 .about{
     z-index: 1;
     position: absolute;
-    left: 20%;
+    left: 18%;
     top: 15%;
     font-family: Roboto;
     font-size: 1.4vw;
@@ -170,12 +170,12 @@ hr{
 }
 
 .contact{
-    right:0%;
+    right:2%;
     bottom: 0%;
     position: absolute;
     text-align: right;
     font-family: Roboto;
-    font-size: 1.5vw;
+    font-size: 1vw;
 }
 
 .resumebtn{
@@ -240,6 +240,15 @@ hr{
     background-color: #d9edf0;
 }
 
+.btntext{
+    font-family: Roboto;
+    position: absolute;
+    bottom: -9px;
+    left: 20%;
+    color: black;
+   
+
+}
 
 @media only screen and (max-device-width: 480px){
     .name{
@@ -286,11 +295,24 @@ hr{
         left: 10%;
 }
 
-.instagram{
-    position: absolute;
-    height:5vw;
-    top:10px;
-    left: 40%;
-}
+    .instagram{
+        position: absolute;
+        height:5vw;
+        top:10px;
+        left: 40%;
+    }
+
+    .resumebtn{
+        position: absolute;
+        left: 5%;
+        top: 37.5%;
+        width: 100px;
+        height: 30px;
+        text-decoration: none;
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+    }
+    
 
 }
