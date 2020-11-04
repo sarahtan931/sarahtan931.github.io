@@ -26,6 +26,7 @@
     font-family: Roboto;
     font-size: 1.4vw;
     color: #000000;
+    text-decoration:none
 }
 
 .projects{ 
@@ -36,6 +37,7 @@
     font-family: Roboto;
     font-size: 1.4vw;
     color: #000000;
+    text-decoration:none
 }
 
 .resume{
@@ -46,6 +48,7 @@
     font-family: Roboto;
     font-size: 1.4vw;
     color: black;
+    text-decoration:none
 }
 
 .background{
@@ -245,9 +248,7 @@ hr{
     position: absolute;
     bottom: -9px;
     left: 20%;
-    color: black;
-   
-
+    color: black; 
 }
 
 @media only screen and (max-device-width: 480px){
