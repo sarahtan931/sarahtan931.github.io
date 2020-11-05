@@ -499,11 +499,11 @@ strong{
   left: 20%;
 }
 
-#pythonBar {height: 40px;}
-#javascriptBar {height: 40px;}
-#mlBar { height: 40px;}
-#htmlBar {height: 40px;}
-#javaBar {height: 40px;}
+#pythonBar {height: 40px; font-size: 30px; font-family: Roboto;}
+#javascriptBar {height: 40px; font-size: 30px; font-family: Roboto;}
+#mlBar { height: 40px; font-size: 30px; font-family: Roboto;}
+#htmlBar {height: 40px; font-size: 30px; font-family: Roboto;}
+#javaBar {height: 40px; font-size: 30px; font-family: Roboto;}
 
 .lang{
   left: 180px;
@@ -547,6 +547,7 @@ strong{font-size: 40px;}
 .resumebtn{
   width: 300px;
   height: 60px;
+  right: 10px;
   border-radius: 25px;
 }
 
@@ -645,6 +646,11 @@ footer{
   height: 200px;
   top: 3000px;
 }
+.active{font-size: 35px;}
+.about{font-size: 35px; left: 165px;}
+.projects{font-size: 35px; left: 350px;}
+.resume{ font-size: 35px; left: 500px;}
+
 }
 
 

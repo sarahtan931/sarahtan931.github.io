@@ -327,7 +327,13 @@
         text-align: right;
         font-family: Roboto;
         font-size: 30px;
-    }   
+    } 
+
+    .active{font-size: 35px;}
+    .about{font-size: 35px; left: 165px;}
+    .projects{font-size: 35px; left: 350px;}
+    .resume{ font-size: 35px; left: 500px;}
+     
 
    
 }

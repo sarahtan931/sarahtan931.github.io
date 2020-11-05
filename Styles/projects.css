@@ -181,10 +181,8 @@ h1{
     background: #FAECE0;
     left: 0%;
     right: 0%;
-    
-    }
-
-    
+}
+  
 .itbackground{
     background-color: white;
     width: 70%;
@@ -239,6 +237,11 @@ h1{
     bottom: 0%;
     font-size: 30px;
   }
+  .active{font-size: 35px;}
+  .about{font-size: 35px; left: 165px;}
+  .projects{font-size: 35px; left: 350px;}
+  .resume{ font-size: 35px; left: 500px;}
+  
   
 
 
